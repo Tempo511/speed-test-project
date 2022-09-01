@@ -4,7 +4,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: linear-gradient( #33104d, #532596, #61389f);
+  background: linear-gradient( #81a39d, #5e8672, #638b66);
   color: white;
 }
 
@@ -32,13 +32,10 @@ body {
 }
 
 
-/* .countdown-box {
-  border: 1px solid black;
-} */
+.mainContainer {
 
-/* .main {
-  border: 1px solid black;
-} */
+  padding: 15px;
+}
 
 .quote-display {
   font-size: 15pt;
@@ -53,6 +50,7 @@ body {
   border: none;
   text-align: center;
   margin-bottom: 30px;
+
 }
 .quote-input:focus{
 outline: black;

@@ -31,14 +31,7 @@ const LeaderBoard = () => {
                     </div>
                 )
 
-                        // <div className="d-flex" key={pirate._id}>
-                        //     <img src={pirate.imageURL} alt={`image of ${pirate.name}`}/>
-                        //     <div>
-                        //         <h3>{pirate.name}</h3>
-                        //         <Link to={`/pirates/${pirate._id}`}>View Pirate</Link>
-                        //         <button className="btn btn-danger" onClick = {()=>deleteHandler(pirate._id)}>Walk the Plank</button>
-                        //     </div>
-                        // </div>
+             
                     
             })}
         </div>

@@ -9,19 +9,19 @@ function App() {
 
 
   return (
-   <div >
-     <Routes>
+    <div >
+      <Routes>
 
-     <Route path ="/" element={<TypingBox/>}></Route>
+        <Route path="/" element={<TypingBox />}></Route>
 
-    <Route path = '/leaderboard' element = {<LeaderBoard/>}></Route>
+        <Route path='/leaderboard' element={<LeaderBoard />}></Route>
 
-     </Routes>
+      </Routes>
 
-   </div>
-   
- 
- 
+    </div>
+
+
+
   );
 }
 
